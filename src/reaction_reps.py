@@ -61,11 +61,13 @@ class B2R2:
         all_p_files = [
             "data/GDB7-20-TS/xyz/" + x for x in reactions["product"].to_list()
         ]
-        ncharges = [x[0].nuclear_charges for x in self.mols_reactants]
-        self.unique_ncharges = np.unique(np.concatenate(self.ncharges))
 
         self.mols_reactants = [[qml.Compound(x)] for x in all_r_files]
         self.mols_products = [[qml.Compound(x)] for x in all_p_files]
+
+        self.ncharges = [x[0].nuclear_charges for x in self.mols_reactants]
+        self.unique_ncharges = np.unique(np.concatenate(self.ncharges))
+
         return
 
     def get_proparg_data(self):
