@@ -1,0 +1,253 @@
+Fold 0
+Optimizer parameters are:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+
+Scheduler state dict is:
+num_lrs: 1
+warmup_epochs: [5.]
+total_epochs: [65]
+steps_per_epoch: 36
+init_lr: [0.0001]
+max_lr: [0.001]
+final_lr: [1.e-05]
+current_step: 1
+lr: [0.000105]
+warmup_steps: [180]
+total_steps: [2340]
+linear_increment: [5.e-06]
+exponential_gamma: [0.99787025]
+base_lrs: [0.0001]
+last_epoch: -1
+_step_count: 0
+verbose: False
+
+Model 0 best validation rmse = 18.519816 on epoch 6
+Model 0 test rmse = 18.124130
+Model 0 test ea rmse = 18.119599
+Model 0 test dh rmse = 18.128661
+Model 0 test mae = 13.325889
+Model 0 test ea mae = 13.131900
+Model 0 test dh mae = 13.519877
+Ensemble test rmse = 18.124130
+Ensemble test ea rmse = 18.119599
+Ensemble test dh rmse = 18.128661
+Ensemble test mae = 13.325889
+Ensemble test ea mae = 13.131900
+Ensemble test dh mae = 13.519877
+Fold 1
+Optimizer parameters are:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+
+Scheduler state dict is:
+num_lrs: 1
+warmup_epochs: [5.]
+total_epochs: [65]
+steps_per_epoch: 36
+init_lr: [0.0001]
+max_lr: [0.001]
+final_lr: [1.e-05]
+current_step: 1
+lr: [0.000105]
+warmup_steps: [180]
+total_steps: [2340]
+linear_increment: [5.e-06]
+exponential_gamma: [0.99787025]
+base_lrs: [0.0001]
+last_epoch: -1
+_step_count: 0
+verbose: False
+
+Model 0 best validation rmse = 18.408994 on epoch 28
+Model 0 test rmse = 18.977945
+Model 0 test ea rmse = 17.866836
+Model 0 test dh rmse = 20.089054
+Model 0 test mae = 14.239936
+Model 0 test ea mae = 13.230952
+Model 0 test dh mae = 15.248920
+Ensemble test rmse = 18.977945
+Ensemble test ea rmse = 17.866836
+Ensemble test dh rmse = 20.089054
+Ensemble test mae = 14.239936
+Ensemble test ea mae = 13.230952
+Ensemble test dh mae = 15.248920
+Fold 2
+Optimizer parameters are:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+
+Scheduler state dict is:
+num_lrs: 1
+warmup_epochs: [5.]
+total_epochs: [65]
+steps_per_epoch: 36
+init_lr: [0.0001]
+max_lr: [0.001]
+final_lr: [1.e-05]
+current_step: 1
+lr: [0.000105]
+warmup_steps: [180]
+total_steps: [2340]
+linear_increment: [5.e-06]
+exponential_gamma: [0.99787025]
+base_lrs: [0.0001]
+last_epoch: -1
+_step_count: 0
+verbose: False
+
+Model 0 best validation rmse = 17.901198 on epoch 13
+Model 0 test rmse = 19.981928
+Model 0 test ea rmse = 18.467949
+Model 0 test dh rmse = 21.495908
+Model 0 test mae = 14.754323
+Model 0 test ea mae = 13.888339
+Model 0 test dh mae = 15.620307
+Ensemble test rmse = 19.981928
+Ensemble test ea rmse = 18.467949
+Ensemble test dh rmse = 21.495908
+Ensemble test mae = 14.754323
+Ensemble test ea mae = 13.888339
+Ensemble test dh mae = 15.620307
+Fold 3
+Optimizer parameters are:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+
+Scheduler state dict is:
+num_lrs: 1
+warmup_epochs: [5.]
+total_epochs: [65]
+steps_per_epoch: 36
+init_lr: [0.0001]
+max_lr: [0.001]
+final_lr: [1.e-05]
+current_step: 1
+lr: [0.000105]
+warmup_steps: [180]
+total_steps: [2340]
+linear_increment: [5.e-06]
+exponential_gamma: [0.99787025]
+base_lrs: [0.0001]
+last_epoch: -1
+_step_count: 0
+verbose: False
+
+Model 0 best validation rmse = 17.143504 on epoch 6
+Model 0 test rmse = 21.847662
+Model 0 test ea rmse = 19.298027
+Model 0 test dh rmse = 24.397296
+Model 0 test mae = 16.084562
+Model 0 test ea mae = 13.923451
+Model 0 test dh mae = 18.245673
+Ensemble test rmse = 21.847662
+Ensemble test ea rmse = 19.298027
+Ensemble test dh rmse = 24.397296
+Ensemble test mae = 16.084562
+Ensemble test ea mae = 13.923451
+Ensemble test dh mae = 18.245673
+Fold 4
+Optimizer parameters are:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+
+Scheduler state dict is:
+num_lrs: 1
+warmup_epochs: [5.]
+total_epochs: [65]
+steps_per_epoch: 36
+init_lr: [0.0001]
+max_lr: [0.001]
+final_lr: [1.e-05]
+current_step: 1
+lr: [0.000105]
+warmup_steps: [180]
+total_steps: [2340]
+linear_increment: [5.e-06]
+exponential_gamma: [0.99787025]
+base_lrs: [0.0001]
+last_epoch: -1
+_step_count: 0
+verbose: False
+
+Model 0 best validation rmse = 17.525170 on epoch 17
+Model 0 test rmse = 17.723019
+Model 0 test ea rmse = 17.655565
+Model 0 test dh rmse = 17.790472
+Model 0 test mae = 13.482516
+Model 0 test ea mae = 13.244591
+Model 0 test dh mae = 13.720442
+Ensemble test rmse = 17.723019
+Ensemble test ea rmse = 17.655565
+Ensemble test dh rmse = 17.790472
+Ensemble test mae = 13.482516
+Ensemble test ea mae = 13.244591
+Ensemble test dh mae = 13.720442
+5-fold cross validation
+	Seed 0 ==> test rmse = 18.124130
+		Seed 0 ==> test ea rmse = 18.119599
+		Seed 0 ==> test dh rmse = 18.128661
+	Seed 0 ==> test mae = 13.325889
+		Seed 0 ==> test ea mae = 13.131900
+		Seed 0 ==> test dh mae = 13.519877
+	Seed 1 ==> test rmse = 18.977945
+		Seed 1 ==> test ea rmse = 17.866836
+		Seed 1 ==> test dh rmse = 20.089054
+	Seed 1 ==> test mae = 14.239936
+		Seed 1 ==> test ea mae = 13.230952
+		Seed 1 ==> test dh mae = 15.248920
+	Seed 2 ==> test rmse = 19.981928
+		Seed 2 ==> test ea rmse = 18.467949
+		Seed 2 ==> test dh rmse = 21.495908
+	Seed 2 ==> test mae = 14.754323
+		Seed 2 ==> test ea mae = 13.888339
+		Seed 2 ==> test dh mae = 15.620307
+	Seed 3 ==> test rmse = 21.847662
+		Seed 3 ==> test ea rmse = 19.298027
+		Seed 3 ==> test dh rmse = 24.397296
+	Seed 3 ==> test mae = 16.084562
+		Seed 3 ==> test ea mae = 13.923451
+		Seed 3 ==> test dh mae = 18.245673
+	Seed 4 ==> test rmse = 17.723019
+		Seed 4 ==> test ea rmse = 17.655565
+		Seed 4 ==> test dh rmse = 17.790472
+	Seed 4 ==> test mae = 13.482516
+		Seed 4 ==> test ea mae = 13.244591
+		Seed 4 ==> test dh mae = 13.720442
+Overall test rmse = 19.330937 +/- 1.478112
+	Overall test ea rmse = 18.281595 +/- 0.575855
+	Overall test dh rmse = 20.380278 +/- 2.418378
+Overall test mae = 14.377445 +/- 0.998185
+	Overall test ea mae = 13.483847 +/- 0.346967
+	Overall test dh mae = 15.271044 +/- 1.699520
+Elapsed time = 0:03:46
